@@ -1,0 +1,63 @@
+.footer {
+    background-color: $brand-purpledrk;
+    background: $brand-purpledrk;
+    .columns {
+      padding-bottom: 40px;
+      padding-right: 40px !important;
+      padding-left: 40px !important;
+      padding-top: 55px;
+      h1 {
+        color: $white;
+        font-weight: bold;
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      .social__facebook {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        margin-right: 30px;
+      }
+      .social__twitter {
+        display: inline-block;
+        width: 23px;
+        height: 18.59px;
+        margin-right: 30px;
+      }
+      .social__youtube {
+        display: inline-block;
+        width: 24px;
+        height: 18.5px;
+        margin-right: 30px;
+      }
+      .social__instagram {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        margin-right: 30px;
+      }
+      .social__pinterest {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        margin-right: 30px;
+      }
+      p {
+        color: #B3A9D2;
+        font-size: 12px;
+        .unsubscribe {
+          color: #B3A9D2;
+          text-decoration: underline;
+        }
+      }
+      .social-media__links {
+        margin-bottom: 40px;
+      }
+      .address {
+        margin-bottom: 24px;
+      }
+      .unsubscribe-link {
+        margin-bottom: 40px;
+      }
+    }
+  }

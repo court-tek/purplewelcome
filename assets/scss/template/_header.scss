@@ -1,0 +1,19 @@
+.header {
+    background-color: $brand-purpledrk;
+    background: $brand-purpledrk;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      width: 100% !important;
+    }
+  
+    .columns {
+      padding-bottom: 13px;
+      padding-right: 13px !important;
+      padding-left: 13px !important;
+      padding-top: 13px;
+      h1 {
+        color: $white;
+        font-weight: bold;
+        font-size: 28px;
+      }
+    }
+  }

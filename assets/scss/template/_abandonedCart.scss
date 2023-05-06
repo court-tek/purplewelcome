@@ -1,0 +1,212 @@
+.img-area {
+  .columns {
+    @include image-padding;
+    padding-left: 0;
+  }
+}
+.cta-area {
+    background-color: $brand-purpledrk;
+    background: $brand-purpledrk;
+  
+    .columns {
+      padding-bottom: 50px;
+      padding-right: 60px !important;
+      padding-left: 35px !important;
+      padding-top: 60px;
+      h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 1.1;
+        color: $white;
+        @include no__hyphen;
+      }
+      p {
+        color: $white;
+        @include no__hyphen;
+      }
+      .line1 {
+        font-size: 25px;
+        margin-bottom: 18px;
+        margin-bottom: 40px;
+      }
+      .secondary__purp {
+        @include secondary__purp;
+        width: 168px;
+      }
+    }
+}
+.cart {
+    background-color: $white;
+    background: $white;
+    .goteam {
+        padding-top: 50px;
+        .columns {
+          h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #3B1B5E;
+          }
+          p {
+            line-height: 1;
+            font-weight: 400;
+          }
+            .link-button {
+            @include link__button;
+        }
+      }
+    }
+}
+.return-to-cart__wrap {
+    /* Small only */
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      width: 100% !important;
+    }
+  .return-to-cart__cta {
+      background-color: $white;
+      background: $white;
+      .columns {
+          padding-bottom: 50px;
+          padding-right: 35px !important;
+          padding-left: 35px !important;
+          padding-top: 50px;
+        p {
+          a {
+              display: inline-block;
+              background-color: $brand-purpledrk;
+              padding-top: 15px;
+              padding-bottom: 15px;
+              color: $white;
+              font-size: 20px;
+              font-weight: 700;
+              text-align: center;
+              width: 186px;
+              border-radius: 18px;
+          }
+          color: $brand-purpledrk;
+          font-weight: bold;
+          font-size: 14px;
+          margin-bottom: 0;
+        }
+      }
+  }
+}
+.picks-title__wrap {
+  /* Small only */
+  width: 600px;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    width: 100% !important;
+  }
+  .picks-title {
+    .columns {
+      padding-right: 35px !important;
+      padding-left: 35px !important;
+      h1 {
+        color: $brand-purpledrk;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.picks-items__wrap {
+    /* Small only */
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      width: 100% !important;
+    }
+    .picks-items {
+        .main-column {
+        padding-bottom: 35px;
+        padding-right: 35px!important;
+        padding-left: 35px !important;
+        padding-top: 35px;
+        }
+      .columns {
+        img {
+          // width: 250px;
+        }
+        .pillows {
+          height: 155px;
+          width: 250px;
+        }
+        .sheets {
+          height: 155px;
+          width: 250px;
+        }
+        h4 {
+          color: $brand-purpledrk;
+          font-weight: 600;
+        }
+        p {
+          color: $brand-purpledrk;
+          font-size: 18px;
+        }
+        .link-button {
+          @include link__button;
+        }
+      // }
+    }
+  }
+}
+.affirm_wrap {
+  /* Small only */
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    width: 100% !important;
+  }
+  .container {
+    .affirm {
+      background-color: $brand-purpledrk !important;
+      background: $brand-purpledrk !important;
+      .main-column {
+        @include column-padding;
+      }
+      .columns {
+        h1 {
+          font-size: 38px;
+          font-weight: 800;
+          color: $white;
+        .z__one {
+          color: $ghost-purple;
+        }
+        .z__two {
+          color: $blanc-purple;
+        }
+        }
+        p {
+          color: $white;
+          font-size: 18px;
+        }
+        .paragraph__main {
+          margin-bottom: 45px;
+        }
+        .secondary__purp {
+          @include secondary__purp;
+          width: 126px;
+        }
+        .terms {
+          margin-left: 32px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+.contact__wrap {
+.contact-area__anbandoned {
+  background-color: $light-lavender;
+  background: $light-lavender;
+    .columns {
+      @include column-padding__bottom-0;
+      h1 {
+        color: $brand-purpledrk;
+        font-size: 36px;
+        font-weight: 600;
+      }
+      p {
+        color: #442690;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
+ 
